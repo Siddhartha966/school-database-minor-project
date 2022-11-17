@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>school homepage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <style>
+    body {
+      background: url("images/homepagebackground.jpg") no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+    .header {
+      background-color: #151313;
+      color: #F9D342;
+      padding: 15px;
+      margin-top: -10px;
+      margin-left: -10px;
+      margin-right: -10px;
+      font-family: 'Montserrat', sans-serif;
+      
+      
+
+    }
+    .style1 {
+      background-color: #151313;
+      color: #F9D342;
+      font-size: 20px;
+      padding: 15px;
+      margin-top: -10px;
+      margin-left: -10px;
+      margin-right: -10px;
+      font-family: 'Montserrat', sans-serif;
+    }
+    .style2 {
+      background-color: #F9D342;
+      color: #292826;
+    }
+    .login-button {
+      float: right;
+      border-radius: 7px;
+      padding: 10px 32px;
+      border:2px;
+      cursor: pointer;
+      position: relative;
+      bottom: 10px;
+      border-color: #F9D342;
+      font-size: 20px;
+      background-color: #F9D342;
+      color: #151513;
+      font-family: 'Montserrat', sans-serif;
+      box-shadow: 0 8px 16px 0 rgba(43, 40, 1, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    .login-button:hover{
+      box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.697), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+    }
+    .topnav {
+      background-color: #333;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    .topnav a {
+      float: left;
+      color:#F9D342;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .topnav a:hover {
+      background-color:#F9D342;
+      color:#292826;
+    }
+    .topnav a.active {
+      background-color:#F9D342;
+      color:#292826;
+    }
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      display: inline-block;
+      background-color: #292826;
+      color: #F9D342;
+      text-align: center;
+      padding: 15px;
+      margin-left: 10px;
+      margin-right: 10px;
+      width: 14.74%;
+      border-radius: 7px;
+      vertical-align: bottom;
+      
+    }
+
+    
+    .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.79);
+    }
+
+    
+    .container {
+      padding: 2px 16px;
+    }
+    .cardbackgroundstyle {
+      background-color: transparent; 
+      
+      margin-top: -10px;
+      margin-left: -10px;
+      margin-right: -10px;
+    }
+    .cardbuttons {
+      vertical-align: middle;
+      border-radius: 7px;
+      padding: 5px 32px;
+      
+      cursor: pointer;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #F9D342;
+      color: #292826;
+      font-family: 'Montserrat', sans-serif;
+      box-shadow: 0 8px 16px 0 rgba(43, 40, 1, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    .cardbuttons:hover{
+      box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.697), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    .stylingfooter {
+            background-color: rgba(0, 0, 0, 0.449);
+            padding: 15px;
+            font-weight: 200;
+            padding-top: 30px;
+            margin:-10px;
+            color: goldenrod;            
+        }
+        hr {
+            background-color: goldenrod;
+            border-color: goldenrod;
+        }
+  </style>
+  <header>
+    <div class="header">
+      <section>
+        <h2 style="text-align: center;">SCHOOL DATABASE
+          <a href="loginpage.html" target="_blank"><button type="button" class="login-button" data-bs-toggle="dropdown" aria-expanded="false">login</button></a>
+        </h2>
+      </section>
+      <nav>
+        <div class="topnav">
+          <a class="active" href="index.html">Home</a>
+          <a href="courses.php" target="_blank">Courses</a>
+          <a href="departments.php" target="_blank">Departments</a>
+          <a href="library.php" target="_blank">E-Library</a>
+          <a href="studentloginpage.html" target="_blank">Students</a>
+          <a href="infrastructure.php" target="_blank">Infrastructure</a>
+          <a href="transportation.html" target="_blank">Transportation</a>
+          <a href="partnerships.php" target="_blank">Partnerships & Dealings</a>
+        </div>
+      </nav> 
+    </div>
+  </header>
+  <main>
+    <div style="background-color: transparent;padding:150px">
+    <br/>
+    </div>
+    <div class="cardbackgroundstyle">
+      <div class="card" style="float: inline-start;">
+        <img src="images/courses.jpg" alt="image not available" style="border-radius: 30%; width: 175px;height: 150px;">
+        <div class="container">
+          <a href="courses.php" target="_blank"><button type="button" class="cardbuttons" data-bs-toggle="dropdown" aria-expanded="false"><p style="font-weight: bolder;" >COURSES</p></button></a>
+          <p style="font-family: 'Montserrat', sans-serif;font-size: 15px;">Explore all the courses!</p>
+        </div>
+      </div>
+      <div class="card" style="float: inline-start;">
+        <img src="images/library.png" alt="image not available" style="border-radius: 30%; width: 175px;height: 150px;">
+        <div class="container">
+          <a href="library.php" target="_blank"><button type="button" class="cardbuttons" data-bs-toggle="dropdown" aria-expanded="false"><p style="font-weight: bolder;" >LIBRARY</p></button></a>
+          <p style="font-family: 'Montserrat', sans-serif;font-size: 15px;" >Get your e-books</p>
+        </div>
+      </div>
+      <div class="card" style="float: inline-start; border-radius: 50%;width:332px;height: 332px;padding: 0px;">
+        <img src="images/mainpagemiddlelogo.jpg" alt="image not available" style="border-radius:50%; width:332px;height: 332px;vertical-align: middle;">
+      </div>
+      <div class="card" style="float: inline-start;">
+        <img src="images/infrastructure.jpg" alt="image not available" style="border-radius: 30%; width: 175px;height: 150px;">
+        <div class="container">
+          <a href="infrastructure.php" target="_blank"><button type="button" class="cardbuttons" data-bs-toggle="dropdown" aria-expanded="false"><p style="font-weight: bolder;" >INFRASTRUCTURE</p></button></a>
+          <p style="font-family: 'Montserrat', sans-serif;font-size: 15px;" >Best Infrastructure</p>
+        </div>
+      </div>
+      
+      <div class="card" style="float: inline-start;">
+        <img src="images/partnerships.png" alt="image not available" style="border-radius: 30%; width: 175px;height: 150px;">
+        <div class="container">
+          <a href="partnerships.php" target="_blank"><button type="button" class="cardbuttons" data-bs-toggle="dropdown" aria-expanded="false"><p style="font-weight: bolder;" >PARTNERSHIPS</p></button></a>
+          <p style="font-family: 'Montserrat', sans-serif;font-size: 15px;" >our partnerships</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="style1" style="height: 500px;">
+      <h2>OUR MANAGEMENT</h2><hr/>
+      <img src="images/image-04.jpg" alt="image not available" width="500" style="float: right;margin-left: 10px; margin-right: 15px;border-radius: 10px;background-color: #292826;">
+        <p style="text-align: center;padding-left: 20px;"><br/>
+          <br/>
+          Our management's futuristic vision, determination and leadership has enabled them to set new benchmarks, ultimately resulting in a world-class education system. Taking our founders’ vision further, our team of young, dynamic, determined leaders continue to groom our community of global learners, through methodologies that are an extraordinary blend of conventional and contemporary.
+        </p>
+        <br/>
+        <hr style="background-color: #F9D342;"/> 
+    </div>
+    <div class="style1" style="height: 500px;">
+      <h2 style="text-align: right;padding-right: 20px;">A BRIGHT VISION</h2><hr/>
+      <img src="https://kardzmed.com/images/mental-health-primary-care-.jpg" alt="image not available" width="500" style="float: left;margin-left: 10px; margin-right: 15px;border-radius: 10px;background-color: #292826;">
+        <p style="text-align: center;padding-left: 20px;"><br/>
+          <br/>
+          Our goal is to focus on the holistic development of each child, and to give them a competitive edge with the help of an extensive curriculum and dynamic teaching methodologies.
+
+          <br/>Morals : The ability to discriminate between right and wrong
+          <br/>Values : The unique beliefs and feelings of an individual
+          <br/>Ethics : The principles that define everyday behaviour
+          <br/>Problem-solving Techniques : The skill to resolve difficult issues
+          <br/>Positive Attitude : The highest indicator of a healthy personality
+        </p>
+        <br/>
+        <hr style="background-color: #F9D342;"/> 
+    </div>
+    <div class="style1" style="height: 500px;">
+      <h2>ALL-ROUND DEVELOPMENT AND DIVERSITY</h2><hr/>
+      <img src="https://phytontalent.com/wp-content/uploads/2020/07/diverse.png" alt="image not available" width="500" style="float: right;margin-left: 10px; margin-right: 15px;border-radius: 10px;background-color: #292826;">
+        <p style="text-align: center;padding-left: 20px;"><br/>
+          <br/>
+          We have taken the best care for the holistic development of each child. activity based curriculumn and child centric approach that focus on skills enhancement and personality development helps every student to reap the best benefit and become global leaders of tomorrow.
+        </p>
+        <br/>
+        <hr style="background-color: #F9D342;"/> 
+    </div>
+  </main>
+  <footer class="style1" style="position: relative;top:10px;">
+        <div class="stylingfooter" style="font-family:Verdana, Geneva, Tahoma, sans-serif" >
+            
+            <table style="width: 100%;"> 
+                <tr>
+                  <th ><a href="index.html" target="_blank" style="color: goldenrod;"> Homepage</a></th>
+                  <th><a href="courses.php" target="_blank" style="color: goldenrod;">Courses</a></th>
+                  <th><a href="departments.php" target="_blank" style="color: goldenrod;">Departments</a></th>
+                  <th><a href="library.php" target="_blank" style="color: goldenrod;">E-Library</a></th>
+                  <th><a href="infrastructure.php" target="_blank" style="color: goldenrod;">Infrastructure</a></th>
+                  <th><a href="transportation.html" target="_blank" style="color: goldenrod;">Transportation</a></th>
+                  <th><a href="partnerships.php" target="_blank" style="color: goldenrod;"> Partnerships</a></th>
+                    
+                </tr>
+            </table>
+            <hr/>
+            <br/>
+            <table style="width: 100%;font-size: 17px;">
+                <tr>
+                    <th style="font-size: 20px;">About</th>
+                    <th style="font-size: 20px;">Contact Us</th>
+                </tr>
+                <tr>
+                    <td style="padding-left:100px;padding-right: 100px;text-align: center;">
+                        The world today is a global village and people are its citizens. As boundaries of location, people and time cease to exist, it is of utmost importance that we move with the times.we have created a unique blend of world-class curricula, contemporary teaching methodologies, and equal focus on intellectual, physical and personality development, resulting future leaders who are ready to take on the world.
+                    </td>
+                    <td style="text-align: center;"><br/>our contact details:<p>+91-7842658149, cse210001081@iiti.ac.in</p>+91-7287964278, cse210001017@iiti.ac.in<p></p></td>
+                </tr>
+            </table>
+            <br/>
+        </div>
+  </footer>
+</body>
+</html>

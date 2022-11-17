@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>staff registration form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+        body{
+        background: url("images/image02.jpg") no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height:100%;
+        }
+        
+        .divboxmiddle {
+            background-color: #292826;
+            color: #F9D342;
+            font-size: 20px;
+            padding: 10px;
+            margin-top: -10px;
+            margin-left: -10px;
+            margin-right: -10px;
+            font-family: 'Rajdhani', sans-serif;
+            margin: 0 auto;
+            width: 400px;
+            box-shadow: 0 8px 16px 0 rgba(43, 40, 1, 0.56), 0 6px 20px 0 rgba(0, 0, 0, 0.531);
+            border-radius: 5px;
+        }
+        .divboxmiddle:hover{
+            box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.697), 0 17px 50px 0 rgba(0, 0, 0, 0.535);
+            transition-duration: 0.4s;
+        }
+        .stylelabel{
+            margin-left: 20px;
+            display: inline-block;
+            margin-bottom: 30px;
+            
+        }
+        .styleinput {
+            border: #F9D342;
+            border-radius: 5px;
+            vertical-align: middle;
+            height: 20px;
+            font-family: 'Rajdhani', sans-serif;
+            background: cornsilk;
+            width: 170px;
+        }
+        input[type="password"] {
+        font-family: caption;
+        }
+        input[type="text"]{
+            font-size: 17px;
+            font-weight: 600;
+        }
+        input[type="number"] {
+        font-weight: 600;
+        width: 60px;
+        }
+
+        .submit-button {
+      
+        border-radius: 7px;
+        padding: 10px 32px;
+        border:2px;
+        cursor: pointer;
+        position: relative;
+        text-align: center;
+        border-color: #F9D342;
+        font-size: 17px;
+        font-weight: 600;
+        background-color: #F9D342;
+        color: #292826;
+        font-family: 'Montserrat', sans-serif;
+        box-shadow: 0 8px 16px 0 rgba(43, 40, 1, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+        .submit-button:hover{
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.697), 0 17px 50px 0 rgba(0,0,0,0.55);
+
+        }
+        hr{
+        height: 1px;
+        background-color: black;
+        border: none;
+        margin-left: -9px;margin-right: -9px;
+        }
+    </style>
+    <form action="staffregistration.php" method="post">
+        <div class="divboxmiddle">
+            <h2 style="text-align: center;">STAFF MEMBER REGISTRATION FORM</h2>
+            <label for="staff_id" class="stylelabel">Staff-ID:</label>
+            <input type="text" id="staff_id" name="staff_id" class="styleinput">
+            <label for="name" class="stylelabel">Staff member name:</label>
+            <input type="text" id="name" name="name" class="styleinput">
+            <label for="password" class="stylelabel"> enter new password:</label>
+            <input type="password" id="password" name="password" class="styleinput" style="width: 154px;">
+            <label for="address" class="stylelabel">address:</label>
+            <textarea id="address" name="address" class="styleinput" style="height: 60px;width: 267px;"></textarea>
+            <p style="margin-left: 20px;" >Gender:</p>
+            <input type="radio" id="male" name="gender" style="margin-left: 20px;">
+            <label for="male">male</label><br>
+            <input type="radio" id="female" name="gender" style="margin-left: 20px;" >
+            <label for="female">female</label><br>
+            <input type="radio" id="other" name="gender" style="margin-left: 20px;" >
+            <label for="other" >other</label>
+            <div>
+                <br/>
+                <label for="age" class="stylelabel" >AGE:</label>
+                <input type="number" id="age" name="age" class="styleinput" style="font-weight: 600;">
+            </div>
+            <p style="margin-left: 20px;" >Staff type:</p>
+            <input type="radio" id="NTS" name="staff_type" style="margin-left: 20px;">
+            <label for="NTS">NTS (non-teaching staff)</label><br>
+            <input type="radio" id="Faculty" name="staff_type" style="margin-left: 20px;" >
+            <label for="Faculty">Faculty</label><br>
+            <br/>
+            <label for="supervising_position" class="stylelabel">supervising position:</label>
+            <input type="text" id="supervising_position" name="supervising_position" class="styleinput">
+            <label for="current_salary" class="stylelabel">current-salary:</label>
+            <input type="number" id="current_salary" name="current_salary" class="styleinput" style="font-weight: 600;width: 100px;">
+            <hr/>
+            <p style="text-align: center;">FACULTY(if)</p>
+            <label for="faculty_id" class="stylelabel">faculty-id:</label>
+            <input type="text" id="faculty_id" name="faculty_id" class="styleinput"><br/>
+            <label for="years_of_experience" class="stylelabel">years of experience:</label>
+            <input type="number" id="years_of_experience" name="years_of_experience" class="styleinput"><br/>
+            <label for="working_hours_per_day" class="stylelabel">working hours per day:</label>
+            <input type="number" id="working_hours_per_day" name="working_hours_per_day" class="styleinput"><br/>
+            <hr/>
+            <p style="text-align: center;">NTS(if)</p>
+            <label for="nts_id" class="stylelabel">nts-id:</label>
+            <input type="text" id="nts_id" name="nts_id" class="styleinput"><br/>
+            <label for="role" class="stylelabel">role:</label>
+            <input type="text" id="role" name="role" class="styleinput"><br/>
+
+            <hr/>
+            <p style="text-align: center;"><input type="submit" class="submit-button"/></p>
+            <p style="font-size: 14px;">Already having an account? <a href="staffloginpage.html" style="color: green;" >Login now</a></p>
+        </div>
+    </form>
+</body>
+</html>
