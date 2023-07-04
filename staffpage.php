@@ -47,7 +47,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
-<body>
+<body style="overflow-x: hidden;">
     <style>
         body{
                 background: url("images/image-03.jpg") no-repeat center center fixed; 
@@ -58,29 +58,29 @@
         height:100%;
         }
         .header {
-        background-color: #151313;
-        color: #F9D342;
-        padding: 15px;
-        margin-top: -10px;
-        margin-left: -10px;
-        margin-right: -10px;
-        font-family: 'Montserrat', sans-serif; 
+            background-color: #151313;
+            color: #F9D342;
+            padding: 1vw;
+            margin-top: -1vw;
+            margin-left: -1vw;
+            margin-right: -1vw;
+            font-family: 'Montserrat', sans-serif;
         }
         .topnav {
-        background-color: #333;
-        overflow: hidden;
-        border-radius: 10px;
+            background-color: #333;
+            overflow: hidden;
+            border-radius: 0.7vw;
+            background-image: linear-gradient(to right,#2b2923, #333);
         }
 
         .topnav a {
-        float: left;
-        color:#F9D342;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
+            float:left;
+            color:#F9D342;
+            text-align: center;
+            padding: 1.2vw 1.6vw;
+            text-decoration: none;
+            font-size: 1.4vw;
         }
-
         .topnav a:hover {
         background-color:#F9D342;
         color:#151313;
@@ -93,19 +93,20 @@
         .style1 {
         background-color: #151313;
         color: #F9D342;
-        font-size: 20px;
-        padding: 15px;
-        margin-top: -10px;
-        margin-left: -10px;
-        margin-right: -10px;
-        margin-bottom: -10px;
+        font-size: 1.4vw;
+        padding: 1.5vw;
+        margin-top: -1vw;
+        margin-left: -1vw;
+        margin-right: -1vw;
+        margin-bottom: -1vw;
         font-family: 'Montserrat', sans-serif;
         }
+
         .stylingcourses {
             background-color: #F9D342;
             color: #292826;
-            padding: 10px;
-            border-radius: 5px;
+            padding: 1vw;
+            border-radius: 0.5vw;
             display: inline-block;
             box-shadow: 0 8px 16px 0 rgba(43, 40, 1, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
             cursor: default;
@@ -127,7 +128,7 @@
         }
         td {
             text-align: center;
-            padding:20px;
+            padding:1vw;
             width: 33.33%;
         }
         .style2 {
@@ -151,14 +152,14 @@
                 <div class="topnav">
                   <a class="active" href="index.html" target="_blank">Home</a>
                   
-                  <a href="index.html" style="float: right;background-color: #F9D342;color: #292826;border-radius: 10px;box-shadow: 0 8px 16px 0 rgba(43, 40, 1, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+                  <a href="index.html" style="float: right;background-color: #F9D342;color: #292826;border-radius: 1vw;box-shadow: 0 8px 16px 0 rgba(43, 40, 1, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
                   ">log out</a>
                 </div>
               </nav>
         </div>
     </header>
     <main> 
-        <div style="padding: 100px;">
+        <div style="padding: 8vw;">
            <br/> 
         </div>
         <div class="style1">
@@ -230,13 +231,13 @@
             </table>
             <hr/>
             <br/>
-            <table style="width: 100%;font-size: 17px;">
+            <table style="width: 100%;font-size: 1.3vw;">
                 <tr>
-                    <th style="font-size: 20px;">About</th>
-                    <th style="font-size: 20px;">Contact Us</th>
+                    <th style="font-size: 1.7vw;">About</th>
+                    <th style="font-size: 1.7vw;">Contact Us</th>
                 </tr>
                 <tr>
-                    <td style="padding-left:100px;padding-right: 100px;text-align: center;">
+                    <td style="padding-left:1vw;padding-right: 1vw;text-align: center;">
                         The world today is a global village and people are its citizens. As boundaries of location, people and time cease to exist, it is of utmost importance that we move with the times.we have created a unique blend of world-class curricula, contemporary teaching methodologies, and equal focus on intellectual, physical and personality development, resulting future leaders who are ready to take on the world.
                     </td>
                     <td style="text-align: center;"><br/>our contact details:<p>+91-7842658149, cse210001081@iiti.ac.in</p>+91-7287964278, cse210001017@iiti.ac.in<p></p></td>

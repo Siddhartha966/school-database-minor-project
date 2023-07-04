@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
-<body>
+<body style="overflow-x: hidden;">
 
   <style>
     body {
@@ -22,10 +22,10 @@
     .header {
       background-color: #151313;
       color: #F9D342;
-      padding: 15px;
-      margin-top: -10px;
-      margin-left: -10px;
-      margin-right: -10px;
+      padding: 1vw;
+      margin-top: -1vw;
+      margin-left: -1vw;
+      margin-right: -1vw;
       font-family: 'Montserrat', sans-serif;
       
       
@@ -34,11 +34,11 @@
     .style1 {
       background-color: #151313;
       color: #F9D342;
-      font-size: 20px;
-      padding: 15px;
-      margin-top: -10px;
-      margin-left: -10px;
-      margin-right: -10px;
+      font-size: 1.5vw;
+      padding: 1.5vw;
+      margin-top: -7vw;
+      margin-left: -1vw;
+      margin-right: -1vw;
       font-family: 'Montserrat', sans-serif;
     }
     .style2 {
@@ -47,36 +47,38 @@
     }
     .login-button {
       float: right;
-      border-radius: 7px;
-      padding: 10px 32px;
-      border:2px;
+      border-radius: 0.7vw;
+      padding: 0.7vw 3.2vw;
+      border:0.2vw;
       cursor: pointer;
       position: relative;
-      bottom: 10px;
+      bottom: 0.7vw;
       border-color: #F9D342;
-      font-size: 20px;
+      font-size: 1.5vw;
       background-color: #F9D342;
       color: #151513;
       font-family: 'Montserrat', sans-serif;
-      box-shadow: 0 8px 16px 0 rgba(43, 40, 1, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      box-shadow: 0 0.8vw 1.6vw 0 rgba(43, 40, 1, 0.2), 0 0.6vw 2.0vw 0 rgba(0,0,0,0.19);
     }
     .login-button:hover{
-      box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.697), 0 17px 50px 0 rgba(0,0,0,0.19);
+      box-shadow: 0 2vw 24vw 0 rgba(0, 0, 0, 0.879), 0 1.7vw 5.0vw 0 rgba(0,0,0,0.19);
 
     }
     .topnav {
       background-color: #333;
       overflow: hidden;
-      border-radius: 10px;
+      border-radius: 0.7vw;
+      background-image: linear-gradient(to right,#2b2923, #333);
+
     }
 
     .topnav a {
-      float: left;
+      float:left;
       color:#F9D342;
       text-align: center;
-      padding: 14px 16px;
+      padding: 1.2vw 1.6vw;
       text-decoration: none;
-      font-size: 17px;
+      font-size: 1.4vw;
     }
 
     .topnav a:hover {
@@ -88,17 +90,17 @@
       color:#292826;
     }
     .card {
-      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      box-shadow: 0 4vw 8vw 0 rgba(0,0,0,0.2);
       transition: 0.3s;
       display: inline-block;
       background-color: #292826;
       color: #F9D342;
       text-align: center;
-      padding: 15px;
-      margin-left: 10px;
-      margin-right: 10px;
-      width: 14.74%;
-      border-radius: 7px;
+      padding: 1vw;
+      margin-left: 0.4vw;
+      margin-right: 0.4vw;
+      width:15vw;
+      border-radius: 0.9vw;
       vertical-align: bottom;
       
     }
@@ -110,19 +112,20 @@
 
     
     .container {
-      padding: 2px 16px;
+      padding: 0.2vw 1.3vw;
     }
     .cardbackgroundstyle {
       background-color: transparent; 
-      
-      margin-top: -10px;
-      margin-left: -10px;
-      margin-right: -10px;
+      text-align: center;
+      margin-top: -10vw;
+      margin-left: -10vw;
+      margin-right: -10vw;
     }
     .cardbuttons {
       vertical-align: middle;
-      border-radius: 7px;
-      padding: 5px 32px;
+      border-radius: 0.5vw;
+      
+      width: 100%;
       
       cursor: pointer;
       font-family: 'Montserrat', sans-serif;
@@ -150,7 +153,7 @@
   <header>
     <div class="header">
       <section>
-        <h2 style="text-align: center;">SCHOOL DATABASE
+        <h2 style="text-align: center;font-size: 2vw;"> SCHOOL DATABASE
           <a href="loginpage.html" target="_blank"><button type="button" class="login-button" data-bs-toggle="dropdown" aria-expanded="false">login</button></a>
         </h2>
       </section>
@@ -169,58 +172,61 @@
     </div>
   </header>
   <main>
-    <div style="background-color: transparent;padding:150px">
+    <div style="background-color: transparent;padding:13vw">
     <br/>
     </div>
     <div class="cardbackgroundstyle">
-      <div class="card" style="float: inline-start;">
-        <img src="images/courses.jpg" alt="image not available" style="border-radius: 30%; width: 175px;height: 150px;">
+      <div class="card" >
+        <img src="images/courses.jpg" alt="image not available" style="border-radius: 30%; width: 12vw;height: 11vw;">
         <div class="container">
-          <a href="courses.php" target="_blank"><button type="button" class="cardbuttons" data-bs-toggle="dropdown" aria-expanded="false"><p style="font-weight: bolder;" >COURSES</p></button></a>
-          <p style="font-family: 'Montserrat', sans-serif;font-size: 15px;">Explore all the courses!</p>
+          <a href="courses.php" target="_blank"><button type="button" class="cardbuttons" data-bs-toggle="dropdown" aria-expanded="false"><p style="font-weight: bolder;font-size: 1.08vw;" >COURSES</p></button></a>
+          <p style="font-family: 'Montserrat', sans-serif;font-size: 1.08vw;">Explore all the courses!</p>
         </div>
       </div>
-      <div class="card" style="float: inline-start;">
-        <img src="images/library.png" alt="image not available" style="border-radius: 30%; width: 175px;height: 150px;">
+      <div class="card" >
+        <img src="images/library.png" alt="image not available" style="border-radius: 30%; width: 12vw;height: 11vw;">
         <div class="container">
-          <a href="library.php" target="_blank"><button type="button" class="cardbuttons" data-bs-toggle="dropdown" aria-expanded="false"><p style="font-weight: bolder;" >LIBRARY</p></button></a>
-          <p style="font-family: 'Montserrat', sans-serif;font-size: 15px;" >Get your e-books</p>
+          <a href="library.php" target="_blank"><button type="button" class="cardbuttons" data-bs-toggle="dropdown" aria-expanded="false"><p style="font-weight: bolder;font-size: 1.08vw;" >LIBRARY</p></button></a>
+          <p style="font-family: 'Montserrat', sans-serif;font-size: 1.08vw;" >Get your e-books</p>
         </div>
       </div>
-      <div class="card" style="float: inline-start; border-radius: 50%;width:332px;height: 332px;padding: 0px;">
-        <img src="images/mainpagemiddlelogo.jpg" alt="image not available" style="border-radius:50%; width:332px;height: 332px;vertical-align: middle;">
+      <div class="card" style=" border-radius: 50%;width:25vw;height: 25vw;padding: 0vw;">
+        <img src="images/mainpagemiddlelogo.jpg" alt="image not available" style="border-radius:50%; width:25vw;height: 25vw;vertical-align: middle;">
       </div>
-      <div class="card" style="float: inline-start;">
-        <img src="images/infrastructure.jpg" alt="image not available" style="border-radius: 30%; width: 175px;height: 150px;">
+      <div class="card" >
+        <img src="images/infrastructure.jpg" alt="image not available" style="border-radius: 30%; width: 12vw;height: 11vw;">
         <div class="container">
-          <a href="infrastructure.php" target="_blank"><button type="button" class="cardbuttons" data-bs-toggle="dropdown" aria-expanded="false"><p style="font-weight: bolder;" >INFRASTRUCTURE</p></button></a>
-          <p style="font-family: 'Montserrat', sans-serif;font-size: 15px;" >Best Infrastructure</p>
+          <a href="infrastructure.php" target="_blank"><button type="button" class="cardbuttons" data-bs-toggle="dropdown" aria-expanded="false"><p style="font-weight: bolder;font-size: 1.08vw;" >INFRASTRUCTURE</p></button></a>
+          <p style="font-family: 'Montserrat', sans-serif;font-size: 1.08vw;" >Best Infrastructure</p>
         </div>
       </div>
       
-      <div class="card" style="float: inline-start;">
-        <img src="images/partnerships.png" alt="image not available" style="border-radius: 30%; width: 175px;height: 150px;">
+      <div class="card" >
+        <img src="images/partnerships.png" alt="image not available" style="border-radius: 30%; width: 12vw;height: 11vw;">
         <div class="container">
-          <a href="partnerships.php" target="_blank"><button type="button" class="cardbuttons" data-bs-toggle="dropdown" aria-expanded="false"><p style="font-weight: bolder;" >PARTNERSHIPS</p></button></a>
-          <p style="font-family: 'Montserrat', sans-serif;font-size: 15px;" >our partnerships</p>
+          <a href="partnerships.php" target="_blank"><button type="button" class="cardbuttons" data-bs-toggle="dropdown" aria-expanded="false"><p style="font-weight: bolder;font-size: 1.08vw;" >PARTNERSHIPS</p></button></a>
+          <p style="font-family: 'Montserrat', sans-serif;font-size: 1.08vw;" >our partnerships</p>
         </div>
       </div>
     </div>
     
-    <div class="style1" style="height: 500px;">
+    <div class="style1" style="height: 45vw;">
+      <br/>
+      <br/>
+      <br/>
       <h2>OUR MANAGEMENT</h2><hr/>
-      <img src="images/image-04.jpg" alt="image not available" width="500" style="float: right;margin-left: 10px; margin-right: 15px;border-radius: 10px;background-color: #292826;">
-        <p style="text-align: center;padding-left: 20px;"><br/>
+      <img src="images/image-04.jpg" alt="image not available"  style="width:37vw; float: right;margin-left: 1.5vw; margin-right: 1vw;border-radius: 1vw;background-color: #292826;">
+        <p style="text-align: center;padding-left: 2vw;"><br/>
           <br/>
           Our management's futuristic vision, determination and leadership has enabled them to set new benchmarks, ultimately resulting in a world-class education system. Taking our founders’ vision further, our team of young, dynamic, determined leaders continue to groom our community of global learners, through methodologies that are an extraordinary blend of conventional and contemporary.
         </p>
         <br/>
         <hr style="background-color: #F9D342;"/> 
     </div>
-    <div class="style1" style="height: 500px;">
-      <h2 style="text-align: right;padding-right: 20px;">A BRIGHT VISION</h2><hr/>
-      <img src="https://kardzmed.com/images/mental-health-primary-care-.jpg" alt="image not available" width="500" style="float: left;margin-left: 10px; margin-right: 15px;border-radius: 10px;background-color: #292826;">
-        <p style="text-align: center;padding-left: 20px;"><br/>
+    <div class="style1" style="height: 45vw;">
+      <h2 style="text-align: right;padding-right: 2vw;">A BRIGHT VISION</h2><hr/>
+      <img src="https://kardzmed.com/images/mental-health-primary-care-.jpg" alt="image not available" style="width:37vw; float: left;margin-left: 1vw; margin-right: 1.5vw;border-radius: 1vw;background-color: #292826;">
+        <p style="text-align: center;padding-left: 2vw;"><br/>
           <br/>
           Our goal is to focus on the holistic development of each child, and to give them a competitive edge with the help of an extensive curriculum and dynamic teaching methodologies.
 
@@ -233,10 +239,10 @@
         <br/>
         <hr style="background-color: #F9D342;"/> 
     </div>
-    <div class="style1" style="height: 500px;">
+    <div class="style1" style="height: 45vw;">
       <h2>ALL-ROUND DEVELOPMENT AND DIVERSITY</h2><hr/>
-      <img src="https://phytontalent.com/wp-content/uploads/2020/07/diverse.png" alt="image not available" width="500" style="float: right;margin-left: 10px; margin-right: 15px;border-radius: 10px;background-color: #292826;">
-        <p style="text-align: center;padding-left: 20px;"><br/>
+      <img src="https://phytontalent.com/wp-content/uploads/2020/07/diverse.png" alt="image not available" style="width:37vw; float: right;margin-left: 1.5vw; margin-right: 1vw;border-radius: 1vw;background-color: #292826;">
+        <p style="text-align: center;padding-left: 2vw;"><br/>
           <br/>
           We have taken the best care for the holistic development of each child. activity based curriculumn and child centric approach that focus on skills enhancement and personality development helps every student to reap the best benefit and become global leaders of tomorrow.
         </p>
@@ -244,7 +250,7 @@
         <hr style="background-color: #F9D342;"/> 
     </div>
   </main>
-  <footer class="style1" style="position: relative;top:10px;">
+  <footer class="style1" style="position: relative;top:1vw;">
         <div class="stylingfooter" style="font-family:Verdana, Geneva, Tahoma, sans-serif" >
             
             <table style="width: 100%;"> 
@@ -261,13 +267,13 @@
             </table>
             <hr/>
             <br/>
-            <table style="width: 100%;font-size: 17px;">
+            <table style="width: 100%;font-size: 1.4vw;">
                 <tr>
-                    <th style="font-size: 20px;">About</th>
-                    <th style="font-size: 20px;">Contact Us</th>
+                    <th style="font-size: 1.7vw;">About</th>
+                    <th style="font-size: 1.7vw;">Contact Us</th>
                 </tr>
                 <tr>
-                    <td style="padding-left:100px;padding-right: 100px;text-align: center;">
+                    <td style="padding-left:1vw;padding-right: 1vw;text-align: center;">
                         The world today is a global village and people are its citizens. As boundaries of location, people and time cease to exist, it is of utmost importance that we move with the times.we have created a unique blend of world-class curricula, contemporary teaching methodologies, and equal focus on intellectual, physical and personality development, resulting future leaders who are ready to take on the world.
                     </td>
                     <td style="text-align: center;"><br/>our contact details:<p>+91-7842658149, cse210001081@iiti.ac.in</p>+91-7287964278, cse210001017@iiti.ac.in<p></p></td>
